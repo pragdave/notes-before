@@ -1,0 +1,6 @@
+
+    <%= link "Your notes…",
+        to: note_path(@conn, :index, []),
+        class: "btn btn-lg btn-primary"
+        %>
+
